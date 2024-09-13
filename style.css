@@ -1,0 +1,101 @@
+
+
+body{
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px
+    font-size: 1.5vw;
+
+}
+
+
+
+#logo {
+    margin: 0px;
+    padding: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 8px 8px 10px 3px darkorange;
+    width: 15%;
+    
+}
+
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: gray;
+    color: azure;
+    display: flex;
+    height: 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 10px;
+    margin: 18px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid orange;
+    border-radius: 5%;
+}
+
+body > main article {
+    width: 69%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-content aside {
+    width: 23%;
+}
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: grey;
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 15px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+
